@@ -1,5 +1,5 @@
 # Fin-API
-Ciração de API financeira.
+Criação de API financeira.
 
 ### Requisitos
 
