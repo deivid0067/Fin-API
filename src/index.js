@@ -21,6 +21,8 @@ function verifyIfExistsAccountCPF(req, res, next){
       return res.status(400).json({ error : "Customer not found" })
    }
 
+   console.log(customer)
+
    req.customer = customer
 
    return next();
